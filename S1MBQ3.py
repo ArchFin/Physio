@@ -6,7 +6,7 @@ from scipy.stats import linregress
 
 
 pA = 0.9 # initial prob of allele A
-npop = 10 # number of members of population
+npop = 50 # number of members of population
 ngens = 100 # number of generations to consider
 niter = 100 # number of iterations of the simulation to run to get averages
 heteros = np.zeros((niter,ngens))
