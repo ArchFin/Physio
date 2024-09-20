@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Parameters for the system
+# Parameters for the system didn't care enough for them to be specific 
 kD = 1.0  # Delta activation rate
 kN = 1.0  # Notch inhibition rate
 gamma_N = 1.0  # Notch decay rate
