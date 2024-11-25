@@ -33,11 +33,3 @@ D1, D2 = np.meshgrid(D1_vals, D2_vals)
 # Compute the derivatives at each point on the grid
 dD1_dt, dD2_dt = delta_dynamics(D1, D2)
 
-# Plot the phase portrait using a quiver plot
-plt.figure(figsize=(8, 6))
-plt.quiver(D1, D2, dD1_dt, dD2_dt, angles='xy', scale_units='xy', scale=0.5)
-plt.title("Phase Portrait of Delta Dynamics")
-plt.xlabel("Delta in Cell 1 (D1)")
-plt.ylabel("Delta in Cell 2 (D2)")
-plt.grid()
-plt.show()
